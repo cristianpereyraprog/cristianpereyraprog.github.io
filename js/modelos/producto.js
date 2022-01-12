@@ -1,0 +1,4 @@
+class ProductoModel {
+    productos = []
+}
+

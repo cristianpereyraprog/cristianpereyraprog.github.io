@@ -1,0 +1,50 @@
+.section-carrito {
+    padding: 5px;
+    user-select: none;
+    overflow-y: auto;
+    display: none;
+    position: fixed;
+    background-color: #f1f2f3;
+    z-index: 1;
+    top: 150px;
+    left: 150px;
+    right: 150px;
+    bottom: 150px;
+    box-shadow: .3em .3em 10em .3em rgba(0, 0, 0, 1);
+    &--visible {
+        display: block;
+    }
+
+    table {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table button {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 100px;
+        height: 35px;
+        font-size: 1.1em;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    button.btn__enviarCarrito {
+        float: right;
+        margin: 15px;
+        width: 100px;
+        height: 35px;
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+}
+
+
