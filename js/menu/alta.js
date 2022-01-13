@@ -101,22 +101,7 @@ class FormularioAlta {
     }
 }
 
-// const renderTablaAlta = async (validos, productos) => {
-// //  ir a buscar traer
-// // then entonces
-//     try{
-//         let plantillaHbs = await fetch('plantillas/alta.hbs')
-//         .then(respuesta => respuesta.text())
-        
-//         var template = Handlebars.compile(plantillaHbs);
-//         let html = template({ productos, validos })
-//         document.getElementById('listado-productos').innerHTML = html 
-//     }
 
-//     catch (error) {
-//         console.error('ERROR', error)
-//     }
-// }
 
 
 async function renderTablaAlta(validos, productos) {
