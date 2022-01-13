@@ -68,7 +68,7 @@ header {
   position: absolute;
   bottom: 0;
   padding: 3em 1em 1em;
-  height: 230px;
+  height: 197px;
   width: 100%;
   z-index: -1;
   transition: all 0.2s;
@@ -105,6 +105,18 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.boton__comprar {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  padding: 10px;
+}
+
+.card__heading {
+  text-align: center;
 }
 
 .active {

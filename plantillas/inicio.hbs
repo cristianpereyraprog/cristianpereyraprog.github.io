@@ -10,10 +10,10 @@
                     <p>{{detalles}}</p>
                 </div>
             </div>
-            <div>
-                <button onclick="agregarCarrito(event,{{id}},this)">Comprar!</button>
-            </div>
         </article>
+            <div>
+                <button class="boton__comprar" onclick="agregarCarrito(event,{{id}},this)">Comprar!</button>
+            </div>
     </div>
     {{/each}}
 {{else}}
