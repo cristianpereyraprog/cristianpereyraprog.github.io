@@ -4,7 +4,7 @@
             <th>Nombre</th>
             <th>Precio</th>
             <th>Stock</th>
-            <th>Marca</th>
+            {{!-- <th>Marca</th> --}}
             <th>Categoria</th>
             <th>Detalles</th>
             <th>Foto</th>
@@ -16,11 +16,11 @@
                 <td>{{nombre}}</td>
                 <td>{{precio}}</td>
                 <td>{{stock}}</td>
-                <td>{{marca}}</td>
+                {{!-- <td>{{marca}}</td> --}}
                 <td>{{categoria}}</td>
                 <td>{{detalles}}</td>
                 <td>
-                    <img style="display:block; margin: 0 auto;" src="{{foto}}" width="50" alt="{{nombre}}"> 
+                    <img style="display:block; margin: 0 auto;" src="{{foto}}" width="100" height="100" alt="{{nombre}}"> 
                 </td>
                 {{#if envio}}
                     <td>Si</td>
