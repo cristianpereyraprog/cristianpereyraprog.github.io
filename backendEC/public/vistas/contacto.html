@@ -1,0 +1,50 @@
+<main>
+    <header class="contact-header">
+        <h2>Queremos escucharte</h2>
+    </header>
+    <div class="info-contact__form-contact">
+        <section class="info-contact">
+            <div>
+                <p>Si quieres información sobre cualquiera de nuestros productos o estás interesado en su distribución, dejá tu consulta y nos pondremos en contacto contigo lo antes posible. <br> Muchas Gracias¡
+                </p>
+
+                <p> Sede Central: San Martín 587 - Río Cuarto - Córdoba.</p>
+                <p>Teléfono: (011) 51505028 </p>
+                <span>Administración: administracion@connecticus.com <br></span>
+                <span>Ventas: ventas@connecticus.com <br></span>
+                <span>Compras: compras@connecticus.com <br></span>
+                <span>Calidad: calidad@connecticus.com <br></span>
+                <span>Marketing: marketing@connecticus.com <br></span>
+            </div>
+        </section>
+        <section class="form-contact">
+            <div>
+                <form action="contacto.php" method="post" enctype="multipart/form-data">
+
+                    <input type="hidden">
+            
+                    <div>
+                        <label for="nombre"></label>
+                        <input id="nombre" name="nombre" required placeholder="Nombre y Apellido">
+                    </div>
+                    <div>
+                        <label for="mail"></label>
+                        <input id="mail" name="mail" type="email" required placeholder="Dirección de correo electrónico">
+                    </div>
+                    <div>
+                        <label for="telefono"></label>
+                        <input type="number" id="telefono" name="telefono" required placeholder="Teléfono">
+                    </div>
+                    <div>
+                        <label for="consulta"></label>
+                        <br>
+                        <textarea id="consulta" name="consulta" placeholder="Consulta"></textarea>
+                    </div>
+                    <div>
+                        <input class="form-contact__submit" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</main>

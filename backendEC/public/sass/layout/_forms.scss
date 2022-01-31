@@ -1,0 +1,67 @@
+.form-alta {
+    display: flex;
+    flex-direction: column;
+    // align-content: center;
+    // justify-content: center;
+    // align-items: center;
+    background-color: rgb(60, 15, 143);
+    margin: 30px 10% ;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+
+    div {
+        background-color: yellow;
+        color: red;
+        border: 1px solid red;
+        margin: 2px 0px 10px 0;
+        border-radius: 1px;
+        display: none;
+    }
+}
+
+#nombre_producto,
+#precio_producto,
+#stock_producto,
+#foto_producto,
+#detalle_producto,
+#envio_producto,
+#nombre_categoria {
+    margin: 10px;
+    font-size: 16px;
+} 
+
+.submit {
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-contact__submit {
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    text-align: center;
+    width: 90%;
+    margin: 3px 10px;
+}
+
+#listado-productos table, #listado-productos th, #listado-productos td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #listado-productos table {
+    width: 90%;
+  }
+  #listado-productos #listado-productos {
+    width: 100%;
+  }
+  #listado-productos th, #listado-productos td {
+    padding: 5px;
+  }
+  

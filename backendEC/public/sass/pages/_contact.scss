@@ -1,0 +1,63 @@
+//********************************************************
+// CONTACTO***********************************************
+
+.contact-header h1 {
+    text-transform: uppercase;
+    padding: 0 px 14px;
+    border-bottom: double #005192 5px;
+    text-align: center;
+}
+.contact-header h2 {
+    text-align: center;
+    padding-bottom: 4px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.info-contact__form-contact {
+    margin: 5%;
+    height: auto;
+    box-shadow: 10px 9px 28px 0px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 10px 9px 28px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 10px 9px 28px 0px rgba(0,0,0,0.65);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.info-contact__form-contact p,
+.info-contact__form-contact span {
+    padding: 20px;
+}
+.info-contact {
+    color: black;
+    background-color: rgba(226, 216, 216, 0.623);
+    width: 50%;
+    height: 100%;
+}
+.form-contact {
+    background-color: #005192;
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+}
+#nombre,
+#mail,
+#telefono,
+#consulta {
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) { 
+    .info-contact__form-contact {
+        flex-direction: column;
+    }
+
+    .info-contact,
+    .form-contact {
+        width: 100%;
+    }
+}
