@@ -20,7 +20,7 @@ https://image.api.playstation.com/vulcan/img/rnd/202107/0508/wg0gD2XINJXeJox3mrY
 Ready or Not (PC)
 4019.05 
 Ready or Not is an intense, tactical, first-person shooter that depicts a modern-day world in which SWAT police units are called to defuse hostile and confronting situations.
-Ready or Not es un juego de disparos en primera persona intenso y táctico que representa un mundo moderno en el que se llama a las unidades de policía SWAT para desactivar situaciones hostiles y de confrontación.
+Ready or Not es un juego de disparos en primera persona intenso y táctico. que representa un mundo moderno en el que se llama a las unidades de policía SWAT para desactivar situaciones hostiles y de confrontación.
 https://cdn.cloudflare.steamstatic.com/steam/apps/1144200/header.jpg?t=1639785519
 
 God of War
